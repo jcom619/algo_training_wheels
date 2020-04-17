@@ -2,6 +2,7 @@ body {
   background-color: black;
   font-size: 40px;
   font-family: papyrus;
+  min-width: 100%;
 }
 .centerText {
   display: grid;
