@@ -92,8 +92,23 @@ int main()
 }>
         </code>
         <figcaption style="color:rgba(140,20,20,0.5);font-size:60px;">SELECTION SORT:</figcaption>
+        <figcaption>In Pseudocode:</figcaption>
+        <figcaption>  array[] = 64 25 12 22 11</figcaption>
+        <figcaption>    Find the minimum element in the array</figcaption>
+        <figcaption>    place it at beginning of the array[1...4]</figcaption>
+        <figcaption>    [11 25 12 22 64]</figcaption>
+        <figcaption>      Find the minimum element in the array[1...4]</figcaption>
+        <figcaption>      Place it at beginning of the array[1...4]</figcaption>
+        <figcaption>      [11 12 25 22 64]</figcaption>
+        <figcaption>        Find the minimum element in the array[2...4]</figcaption>
+        <figcaption>        Place it at beginning of the array[2...4]</figcaption>
+        <figcaption>        [11 12 22 25 64]</figcaption>
+        <figcaption>          Find the minimum element in the array[3...4]</figcaption>
+        <figcaption>          Place it at beginning of the array[3...4]</figcaption>
+        <figcaption>           [11 12 22 25 64]</figcaption>
+        <figcaption style="margin-top:10px; margin-bottom:10px;">...aaaand, boom goes the dynammite.</figcaption>
         <code>
- const numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
+const numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
 
 function selectionSort(array) {
     const length = array.length;
