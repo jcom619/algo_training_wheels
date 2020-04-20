@@ -1,6 +1,5 @@
 body {
   background-color: black;
-
   font-family: papyrus;
   margin: 0px;
   padding: 0px;
@@ -9,6 +8,9 @@ body {
 .centerText {
   display: grid;
   text-align: center;
+}
+.Title {
+  font-size: 40px;
 }
 figcaption {
   text-shadow: 0px 0px 70px white;
