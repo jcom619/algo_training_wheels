@@ -18,14 +18,15 @@ code {
   color: rgba(255, 200, 200, 0.5);
   text-align: left;
   font-size: 22px;
-  /* margin: 30px; */
+  margin: 10px;
 }
 
 pre, code {
   font-family: monospace, monospace;
 }
 pre {
-  overflow: auto;
+  overflow:hidden;
+  max-width: 100vw;
 }
 pre > code {
   display: block;
