@@ -14,9 +14,11 @@ body {
   font-size: 40px;
 }
 .ytp-caption-window-container {
+  
   display:block;
   position:relative;
-  
+  left: auto;
+  right:auto;
   max-width: 560; 
   max-height:315;
 }
